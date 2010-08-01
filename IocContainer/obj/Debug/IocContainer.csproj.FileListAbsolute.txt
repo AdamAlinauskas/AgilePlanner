@@ -1,0 +1,11 @@
+D:\development\spikes\Scrum\IocContainer\bin\Debug\IocContainer.dll
+D:\development\spikes\Scrum\IocContainer\bin\Debug\IocContainer.pdb
+D:\development\spikes\Scrum\IocContainer\bin\Debug\DAL.dll
+D:\development\spikes\Scrum\IocContainer\bin\Debug\Domain.dll
+D:\development\spikes\Scrum\IocContainer\bin\Debug\StructureMap.dll
+D:\development\spikes\Scrum\IocContainer\bin\Debug\DAL.pdb
+D:\development\spikes\Scrum\IocContainer\bin\Debug\Domain.pdb
+D:\development\spikes\Scrum\IocContainer\bin\Debug\StructureMap.xml
+D:\development\spikes\Scrum\IocContainer\obj\Debug\ResolveAssemblyReference.cache
+D:\development\spikes\Scrum\IocContainer\obj\Debug\IocContainer.dll
+D:\development\spikes\Scrum\IocContainer\obj\Debug\IocContainer.pdb

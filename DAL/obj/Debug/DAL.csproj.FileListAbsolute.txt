@@ -1,0 +1,7 @@
+D:\development\spikes\Scrum\DAL\bin\Debug\DAL.dll
+D:\development\spikes\Scrum\DAL\bin\Debug\DAL.pdb
+D:\development\spikes\Scrum\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\development\spikes\Scrum\DAL\obj\Debug\DAL.dll
+D:\development\spikes\Scrum\DAL\obj\Debug\DAL.pdb
+D:\development\spikes\Scrum\DAL\bin\Debug\Domain.dll
+D:\development\spikes\Scrum\DAL\bin\Debug\Domain.pdb

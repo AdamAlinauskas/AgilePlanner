@@ -1,0 +1,6 @@
+ToDo List:
+
+1) Listing view for Stories.
+2) Add Story.
+3) Remove Story.
+4) Edit Story.

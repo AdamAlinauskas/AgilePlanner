@@ -1,0 +1,13 @@
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\Infrastructure.dll
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\Infrastructure.pdb
+D:\development\spikes\Scrum\Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+D:\development\spikes\Scrum\Infrastructure\obj\Debug\Infrastructure.dll
+D:\development\spikes\Scrum\Infrastructure\obj\Debug\Infrastructure.pdb
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\IocContainer.dll
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\StructureMap.dll
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\IocContainer.pdb
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\StructureMap.xml
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\DAL.dll
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\DAL.pdb
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\Domain.dll
+D:\development\spikes\Scrum\Infrastructure\bin\Debug\Domain.pdb
