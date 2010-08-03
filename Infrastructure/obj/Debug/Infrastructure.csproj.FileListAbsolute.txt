@@ -11,3 +11,8 @@ D:\development\spikes\Scrum\Infrastructure\bin\Debug\DAL.dll
 D:\development\spikes\Scrum\Infrastructure\bin\Debug\DAL.pdb
 D:\development\spikes\Scrum\Infrastructure\bin\Debug\Domain.dll
 D:\development\spikes\Scrum\Infrastructure\bin\Debug\Domain.pdb
+E:\Development\Spike\AgilePlanner\Infrastructure\bin\Debug\Infrastructure.dll
+E:\Development\Spike\AgilePlanner\Infrastructure\bin\Debug\Infrastructure.pdb
+E:\Development\Spike\AgilePlanner\Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+E:\Development\Spike\AgilePlanner\Infrastructure\obj\Debug\Infrastructure.dll
+E:\Development\Spike\AgilePlanner\Infrastructure\obj\Debug\Infrastructure.pdb

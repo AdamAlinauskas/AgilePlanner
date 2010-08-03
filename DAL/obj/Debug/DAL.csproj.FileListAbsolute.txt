@@ -5,3 +5,10 @@ D:\development\spikes\Scrum\DAL\obj\Debug\DAL.dll
 D:\development\spikes\Scrum\DAL\obj\Debug\DAL.pdb
 D:\development\spikes\Scrum\DAL\bin\Debug\Domain.dll
 D:\development\spikes\Scrum\DAL\bin\Debug\Domain.pdb
+E:\Development\Spike\AgilePlanner\DAL\bin\Debug\DAL.dll
+E:\Development\Spike\AgilePlanner\DAL\bin\Debug\DAL.pdb
+E:\Development\Spike\AgilePlanner\DAL\bin\Debug\Domain.dll
+E:\Development\Spike\AgilePlanner\DAL\bin\Debug\Domain.pdb
+E:\Development\Spike\AgilePlanner\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\Development\Spike\AgilePlanner\DAL\obj\Debug\DAL.dll
+E:\Development\Spike\AgilePlanner\DAL\obj\Debug\DAL.pdb

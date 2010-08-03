@@ -1,5 +1,5 @@
 using System;
-using IocContainer;
+
 
 namespace Infrastructure.IOC
 {

@@ -13,3 +13,17 @@ D:\development\spikes\Scrum\UI\bin\DAL.dll
 D:\development\spikes\Scrum\UI\bin\Domain.dll
 D:\development\spikes\Scrum\UI\bin\DAL.pdb
 D:\development\spikes\Scrum\UI\bin\Domain.pdb
+E:\Development\Spike\AgilePlanner\UI\bin\UI.dll
+E:\Development\Spike\AgilePlanner\UI\bin\UI.pdb
+E:\Development\Spike\AgilePlanner\UI\bin\DAL.dll
+E:\Development\Spike\AgilePlanner\UI\bin\Domain.dll
+E:\Development\Spike\AgilePlanner\UI\bin\Infrastructure.dll
+E:\Development\Spike\AgilePlanner\UI\bin\IocContainer.dll
+E:\Development\Spike\AgilePlanner\UI\bin\DAL.pdb
+E:\Development\Spike\AgilePlanner\UI\bin\Domain.pdb
+E:\Development\Spike\AgilePlanner\UI\bin\Infrastructure.pdb
+E:\Development\Spike\AgilePlanner\UI\bin\IocContainer.pdb
+E:\Development\Spike\AgilePlanner\UI\bin\StructureMap.xml
+E:\Development\Spike\AgilePlanner\UI\obj\Debug\ResolveAssemblyReference.cache
+E:\Development\Spike\AgilePlanner\UI\obj\Debug\UI.dll
+E:\Development\Spike\AgilePlanner\UI\obj\Debug\UI.pdb

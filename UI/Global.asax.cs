@@ -3,6 +3,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Infrastructure.IOC;
 using IocContainer;
+using UI.Container;
 
 namespace UI
 {
@@ -38,7 +39,7 @@ namespace UI
     {
         public static void Initialize()
         {
-            ContainerBootstrapper.Initialize();
+            ContainerBootStrapper.Initialize();
             ControllerBuilder.Current.SetControllerFactory(new CustomContorllerFactory());
         }
     }

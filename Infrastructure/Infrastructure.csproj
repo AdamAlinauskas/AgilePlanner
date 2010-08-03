@@ -40,15 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IOC\ContainerBootstrapper.cs" />
+    <Compile Include="IOC\DependencyResolver.cs" />
     <Compile Include="IOC\Resolve.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\IocContainer\IocContainer.csproj">
-      <Project>{A98C0162-8D44-4287-9C9D-F8657C27302C}</Project>
-      <Name>IocContainer</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

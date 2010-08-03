@@ -9,3 +9,14 @@ D:\development\spikes\Scrum\IocContainer\bin\Debug\StructureMap.xml
 D:\development\spikes\Scrum\IocContainer\obj\Debug\ResolveAssemblyReference.cache
 D:\development\spikes\Scrum\IocContainer\obj\Debug\IocContainer.dll
 D:\development\spikes\Scrum\IocContainer\obj\Debug\IocContainer.pdb
+E:\Development\Spike\AgilePlanner\IocContainer\bin\Debug\IocContainer.dll
+E:\Development\Spike\AgilePlanner\IocContainer\bin\Debug\IocContainer.pdb
+E:\Development\Spike\AgilePlanner\IocContainer\bin\Debug\DAL.dll
+E:\Development\Spike\AgilePlanner\IocContainer\bin\Debug\Domain.dll
+E:\Development\Spike\AgilePlanner\IocContainer\bin\Debug\StructureMap.dll
+E:\Development\Spike\AgilePlanner\IocContainer\bin\Debug\DAL.pdb
+E:\Development\Spike\AgilePlanner\IocContainer\bin\Debug\Domain.pdb
+E:\Development\Spike\AgilePlanner\IocContainer\bin\Debug\StructureMap.xml
+E:\Development\Spike\AgilePlanner\IocContainer\obj\Debug\ResolveAssemblyReference.cache
+E:\Development\Spike\AgilePlanner\IocContainer\obj\Debug\IocContainer.dll
+E:\Development\Spike\AgilePlanner\IocContainer\obj\Debug\IocContainer.pdb
