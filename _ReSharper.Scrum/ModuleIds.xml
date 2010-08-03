@@ -8,6 +8,7 @@
   <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
   <Module PersistentId="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="Microsoft.CSharp_1" />
   <Module PersistentId="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="Microsoft.CSharp_2" />
+  <Module PersistentId="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223" ModuleId="StructureMap" />
   <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System" />
   <Module PersistentId="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System_1" />
   <Module PersistentId="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data" />
@@ -45,7 +46,6 @@
   <Module PersistentId="System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Web.Services_1" />
   <Module PersistentId="System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.EnterpriseServices" />
   <Module PersistentId="System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.EnterpriseServices_1" />
-  <Module PersistentId="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223" ModuleId="StructureMap" />
   <Module PersistentId="UI, Version=1.0.0.0, Culture=neutral" ModuleId="UI_1" />
   <Module PersistentId="System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.IdentityModel" />
   <Module PersistentId="System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Runtime.Serialization" />
@@ -56,11 +56,8 @@
   <Module PersistentId="System.ServiceModel.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.ServiceModel.Activities" />
   <Module PersistentId="System.WorkflowServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.WorkflowServices" />
   <Module PersistentId="JetBrains.Annotations, Version=5.1.1727.12, Culture=neutral, PublicKeyToken=1010a0d8d6380325" ModuleId="JetBrains.Annotations" />
-  <Module PersistentId="DAL, Version=1.0.0.0, Culture=neutral" ModuleId="DAL_1" />
-  <Module PersistentId="Infrastructure, Version=1.0.0.0, Culture=neutral" ModuleId="Infrastructure_1" />
   <Module PersistentId="IocContainer, Version=1.0.0.0, Culture=neutral" ModuleId="IocContainer_1" />
   <Module PersistentId="Domain, Version=1.0.0.0, Culture=neutral" ModuleId="Domain_1" />
-  <Module PersistentId="DAL, Version=1.0.0.0, Culture=neutral" ModuleId="DAL_2" />
-  <Module PersistentId="Infrastructure, Version=1.0.0.0, Culture=neutral" ModuleId="Infrastructure_2" />
-  <Module PersistentId="IocContainer, Version=1.0.0.0, Culture=neutral" ModuleId="IocContainer_2" />
+  <Module PersistentId="Infrastructure, Version=1.0.0.0, Culture=neutral" ModuleId="Infrastructure_1" />
+  <Module PersistentId="DAL, Version=1.0.0.0, Culture=neutral" ModuleId="DAL_1" />
 </Modules>
