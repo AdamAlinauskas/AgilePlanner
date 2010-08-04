@@ -65,4 +65,5 @@
   <Module PersistentId="Microsoft.Web.Mvc.Build, Version=2.0.0.0, Culture=neutral" ModuleId="Microsoft.Web.Mvc.Build" />
   <Module PersistentId="DAL, Version=1.0.0.0, Culture=neutral" ModuleId="DAL_2" />
   <Module PersistentId="Microsoft.Web.Mvc, Version=2.0.0.0, Culture=neutral" ModuleId="Microsoft.Web.Mvc_1" />
+  <Module PersistentId="MvcContrib, Version=2.0.71.0, Culture=neutral" ModuleId="MvcContrib" />
 </Modules>
