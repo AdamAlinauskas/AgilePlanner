@@ -20,9 +20,12 @@ namespace UI.Controllers
             return View(sprints.All().Select(x => new SprintDto{Id=x.Id,Name=x.Name,Description = x.Description}));
         }
 
-        public void AddEdit(long id)
+        public ViewResult AddEdit(long id)
         {
-            throw new NotImplementedException();
+            if (id.Equals(0))
+                return View();
+
+            return null;
         }
     }
 }

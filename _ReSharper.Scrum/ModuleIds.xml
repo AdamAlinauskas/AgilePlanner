@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="71549568-B8F6-4973-AAEA-95F175090E1F" ModuleId="UI" />
+  <Module PersistentId="03083A20-DC25-43A1-8C94-D219D8F24D94" ModuleId="DAL" />
+</Modules>

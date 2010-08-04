@@ -17,6 +17,7 @@ h2
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 
+<%=Html.ActionLink<SprintController>(x=>x.AddEdit(0),"Create") %>
 
 <h2>Hand rolled grid</h2>
 <table>
