@@ -3,3 +3,8 @@ D:\development\spikes\Scrum\Domain\bin\Debug\Domain.pdb
 D:\development\spikes\Scrum\Domain\obj\Debug\ResolveAssemblyReference.cache
 D:\development\spikes\Scrum\Domain\obj\Debug\Domain.dll
 D:\development\spikes\Scrum\Domain\obj\Debug\Domain.pdb
+D:\development\spikes\AgilePlanner\Domain\bin\Debug\Domain.dll
+D:\development\spikes\AgilePlanner\Domain\bin\Debug\Domain.pdb
+D:\development\spikes\AgilePlanner\Domain\obj\Debug\ResolveAssemblyReference.cache
+D:\development\spikes\AgilePlanner\Domain\obj\Debug\Domain.dll
+D:\development\spikes\AgilePlanner\Domain\obj\Debug\Domain.pdb

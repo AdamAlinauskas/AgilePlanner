@@ -27,3 +27,17 @@ E:\Development\Spike\AgilePlanner\UI\bin\StructureMap.xml
 E:\Development\Spike\AgilePlanner\UI\obj\Debug\ResolveAssemblyReference.cache
 E:\Development\Spike\AgilePlanner\UI\obj\Debug\UI.dll
 E:\Development\Spike\AgilePlanner\UI\obj\Debug\UI.pdb
+D:\development\spikes\AgilePlanner\UI\bin\UI.dll
+D:\development\spikes\AgilePlanner\UI\bin\UI.pdb
+D:\development\spikes\AgilePlanner\UI\bin\DAL.dll
+D:\development\spikes\AgilePlanner\UI\bin\Domain.dll
+D:\development\spikes\AgilePlanner\UI\bin\Infrastructure.dll
+D:\development\spikes\AgilePlanner\UI\bin\DAL.pdb
+D:\development\spikes\AgilePlanner\UI\bin\Domain.pdb
+D:\development\spikes\AgilePlanner\UI\bin\Infrastructure.pdb
+D:\development\spikes\AgilePlanner\UI\bin\StructureMap.xml
+D:\development\spikes\AgilePlanner\UI\obj\Debug\ResolveAssemblyReference.cache
+D:\development\spikes\AgilePlanner\UI\obj\Debug\UI.dll
+D:\development\spikes\AgilePlanner\UI\obj\Debug\UI.pdb
+D:\development\spikes\AgilePlanner\UI\bin\Microsoft.Web.Mvc.dll
+D:\development\spikes\AgilePlanner\UI\bin\Microsoft.Web.Mvc.pdb

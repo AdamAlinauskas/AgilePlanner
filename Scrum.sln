@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{DF0A9876-6005-4EA6-B1B4-DB12EA884206}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IocContainer", "IocContainer\IocContainer.csproj", "{A98C0162-8D44-4287-9C9D-F8657C27302C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,10 +31,6 @@ Global
 		{DF0A9876-6005-4EA6-B1B4-DB12EA884206}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF0A9876-6005-4EA6-B1B4-DB12EA884206}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF0A9876-6005-4EA6-B1B4-DB12EA884206}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A98C0162-8D44-4287-9C9D-F8657C27302C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A98C0162-8D44-4287-9C9D-F8657C27302C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A98C0162-8D44-4287-9C9D-F8657C27302C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A98C0162-8D44-4287-9C9D-F8657C27302C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

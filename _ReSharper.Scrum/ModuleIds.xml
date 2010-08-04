@@ -60,4 +60,9 @@
   <Module PersistentId="Domain, Version=1.0.0.0, Culture=neutral" ModuleId="Domain_1" />
   <Module PersistentId="Infrastructure, Version=1.0.0.0, Culture=neutral" ModuleId="Infrastructure_1" />
   <Module PersistentId="DAL, Version=1.0.0.0, Culture=neutral" ModuleId="DAL_1" />
+  <Module PersistentId="Microsoft.Web.Mvc, Version=2.0.0.0, Culture=neutral" ModuleId="Microsoft.Web.Mvc" />
+  <Module PersistentId="Microsoft.Web.Mvc.AspNet4, Version=2.0.0.0, Culture=neutral" ModuleId="Microsoft.Web.Mvc.AspNet4" />
+  <Module PersistentId="Microsoft.Web.Mvc.Build, Version=2.0.0.0, Culture=neutral" ModuleId="Microsoft.Web.Mvc.Build" />
+  <Module PersistentId="DAL, Version=1.0.0.0, Culture=neutral" ModuleId="DAL_2" />
+  <Module PersistentId="Microsoft.Web.Mvc, Version=2.0.0.0, Culture=neutral" ModuleId="Microsoft.Web.Mvc_1" />
 </Modules>
