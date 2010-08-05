@@ -89,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Views\Shared\EditorTemplates\EditField.ascx" />
     <Content Include="Views\Shared\EditorTemplates\HiddenField.ascx" />
     <Content Include="Views\Shared\EditorTemplates\Object.ascx" />
     <Content Include="Views\Sprint\AddEdit.aspx" />
