@@ -4,15 +4,13 @@
 
       <%if (prop.TemplateHint != null && prop.TemplateHint.Equals("HiddenField")){%>
         <%=Html.Hidden(prop.PropertyName) %>
-        <%=Html.Editor(prop.PropertyName) %>
     <%}%>
-    
     <%else { %>
-        <div>
+    <div>
         <%=Html.Label(prop.PropertyName)%>
         <%=Html.Editor(prop.PropertyName) %>
         <%=Html.ValidationMessage(prop.PropertyName,"*") %>
-</div>        
+    </div>        
     <%}%>
 
 <%}%>
