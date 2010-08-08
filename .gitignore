@@ -4,3 +4,4 @@ Bin/
 App_Data/
 _ReSharper.Scrum/
 *.suo
+*.user
