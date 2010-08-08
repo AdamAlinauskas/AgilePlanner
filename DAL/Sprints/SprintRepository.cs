@@ -10,6 +10,7 @@ namespace DAL.Sprints
     {
         IEnumerable<Sprint> All();
         void Save(Sprint sprint);
+        Sprint Find(long id);
     }
 
     public class SprintRepository : DbContext,ISprintRepository
@@ -36,6 +37,11 @@ namespace DAL.Sprints
         {
             database.Sprints.Add(sprint);
             database.Save();
+        }
+
+        public Sprint Find(long id)
+        {
+            return  database.Sprints.Find(id);
         }
     }
 }

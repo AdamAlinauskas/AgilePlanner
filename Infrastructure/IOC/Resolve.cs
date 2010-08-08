@@ -17,7 +17,7 @@ namespace Infrastructure.IOC
             return dependencyResolver.Implementation(type);
         }
 
-        public static T ImplementationOf<T>()
+        public static T AnImplementationOf<T>()
         {
             return dependencyResolver.ImplementationOf<T>();
         }

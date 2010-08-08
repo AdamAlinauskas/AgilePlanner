@@ -73,6 +73,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionFilters\DatabaseUnitOfWork.cs" />
     <Compile Include="Container\Container.cs" />
     <Compile Include="Container\ContainerBootStrapper.cs" />
     <Compile Include="Container\RegisterObjects.cs" />
