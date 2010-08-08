@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using Domain.Sprints;
 
@@ -8,18 +9,33 @@ namespace DAL.Sprints
     public interface ISprintRepository
     {
         IEnumerable<Sprint> All();
+        void Save(Sprint sprint);
     }
 
-    public class SprintRepository : ISprintRepository
+    public class SprintRepository : DbContext,ISprintRepository
     {
+        private readonly IDatabase database;
+
+
+        public SprintRepository(IDatabase database)
+        {
+            this.database = database;
+        }
+
+        public Sprint FindBy(long ID)
+        {
+            return database.Sprints.Find(ID);
+        }
+
         public IEnumerable<Sprint> All()
         {
-            return new List<Sprint>
-                       {
-                           new Sprint(1, "Sprint 1", "IOC Container"),
-                           new Sprint(2, "Sprint 2", "Views"),
-                           new Sprint(3, "Sprint 3", "AutoMapping"),
-                       };
+            return database.Sprints.ToList();
+        }
+
+        public void Save(Sprint sprint)
+        {
+            database.Sprints.Add(sprint);
+            database.Save();
         }
     }
 }

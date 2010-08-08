@@ -1,0 +1,102 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="EditorForModel`0" priority="2" />
+      <Item value="Label`0" priority="0" />
+      <Item value="Editor`0" priority="5" />
+      <Item value="ValidationMessageFor`2" priority="0" />
+      <Item value="Hidden`0" priority="1" />
+      <Item value="EditorFor`2" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewDataDictionary">
+      <Item value="ModelMetadata" priority="6" />
+      <Item value="TemplateInfo" priority="0" />
+      <Item value="Model" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelMetadata">
+      <Item value="Properties" priority="0" />
+      <Item value="ShowForEdit" priority="0" />
+      <Item value="PropertyName" priority="12" />
+      <Item value="AdditionalValues" priority="0" />
+      <Item value="DisplayName" priority="0" />
+      <Item value="NullDisplayText" priority="0" />
+      <Item value="HideSurroundingHtml" priority="0" />
+      <Item value="TemplateHint" priority="3" />
+      <Item value="Model" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.TemplateInfo">
+      <Item value="Visited`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Equals`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="UIHint" priority="0" />
+      <Item value="UIHintAttribute`0" priority="0" />
+      <Item value="ViewData" priority="1" />
+      <Item value="Model" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Sprint/f:Index.aspx" caret="1090" fromTop="33" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Models/f:SprintDto.cs" caret="239" fromTop="12" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Controllers/f:SprintController.cs" caret="343" fromTop="13" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Sprint/f:AddEdit.aspx" caret="443" fromTop="6" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:HiddenField.ascx" caret="89" fromTop="1" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Models/f:HiddenFieldAttribute.cs" caret="198" fromTop="6" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:EditField.ascx" caret="132" fromTop="4" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:Object.ascx" caret="559" fromTop="14" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Sprint/f:Index.aspx" caret="731" fromTop="18" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Controllers/f:SprintController.cs" caret="703" fromTop="24" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Sprint/f:AddEdit.aspx" caret="458" fromTop="6" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Controllers/f:SprintController.cs" caret="680" fromTop="26" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:Object.ascx" caret="534" fromTop="9" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:Object.ascx" caret="534" fromTop="7" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:Object.ascx" caret="550" fromTop="17" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Models/f:SprintDto.cs" caret="239" fromTop="19" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Models/f:SprintDto.cs" caret="96" fromTop="6" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Models/f:SprintDto.cs" caret="240" fromTop="15" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:EditField.ascx" caret="115" fromTop="2" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:EditField.ascx" caret="275" fromTop="7" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:Object.ascx" caret="525" fromTop="12" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:Object.ascx" caret="363" fromTop="7" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:HiddenField.ascx" caret="128" fromTop="6" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:HiddenField.ascx" caret="89" fromTop="1" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Models/f:HiddenFieldAttribute.cs" caret="193" fromTop="5" />
+      <File id="71549568-B8F6-4973-AAEA-95F175090E1F/d:Views/d:Shared/d:EditorTemplates/f:Object.ascx" caret="308" fromTop="4" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

@@ -2,7 +2,10 @@
 using System.Web.Mvc;
 using DAL.Sprints;
 using System.Linq;
+using Domain.Sprints;
+using MvcContrib.ActionResults;
 using UI.Models;
+using Microsoft.Web.Mvc;
 
 namespace UI.Controllers
 {
@@ -26,6 +29,15 @@ namespace UI.Controllers
                 return View();
 
             return null;
+        }
+
+        [HttpPost]
+        public ActionResult AddEdit(SprintDto dto)
+        {
+            if (dto.Id.Equals(0))
+                sprints.Save(new Sprint(dto.Id, dto.Name, dto.Description));
+
+            return new RedirectToRouteResult<SprintController>(x => x.Index());
         }
     }
 }

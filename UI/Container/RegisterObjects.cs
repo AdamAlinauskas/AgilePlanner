@@ -9,6 +9,7 @@ namespace IocContainer
         public RegisterObjects()
         {
             For<ISprintRepository>().Add<SprintRepository>();
+            For<IDatabase>().Add<Database>();
         }
     }
 }
