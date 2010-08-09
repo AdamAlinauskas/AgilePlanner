@@ -19,6 +19,11 @@ namespace Domain.Sprints
             this.Description = Description;
         }
 
+        public Sprint(string name, string description) : this(0,name,description)
+        {
+            
+        }
+
         public void Update(string name, string description)
         {
             Name = name;

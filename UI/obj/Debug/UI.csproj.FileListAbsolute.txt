@@ -43,3 +43,8 @@ D:\development\spikes\AgilePlanner\UI\bin\Microsoft.Web.Mvc.dll
 D:\development\spikes\AgilePlanner\UI\bin\Microsoft.Web.Mvc.pdb
 D:\development\spikes\AgilePlanner\UI\bin\MvcContrib.dll
 D:\development\spikes\AgilePlanner\UI\bin\MvcContrib.xml
+D:\development\spikes\AgilePlanner\UI\bin\Task.dll
+D:\development\spikes\AgilePlanner\UI\bin\ViewModel.dll
+D:\development\spikes\AgilePlanner\UI\bin\Task.pdb
+D:\development\spikes\AgilePlanner\UI\bin\ViewModel.pdb
+D:\development\spikes\AgilePlanner\UI\bin\StructureMap.dll

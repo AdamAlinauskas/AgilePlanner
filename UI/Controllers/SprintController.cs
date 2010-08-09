@@ -1,28 +1,30 @@
 ﻿using System;
 using System.Web.Mvc;
-using DAL.Sprints;
 using System.Linq;
-using Domain.Sprints;
 using MvcContrib.ActionResults;
+using Task.BaseInterfaces;
+using Task.Sprints;
 using UI.ActionFilters;
 using UI.Models;
 using Microsoft.Web.Mvc;
 
 namespace UI.Controllers
 {
-    [DatabaseUnitOfWork]
+    [DatabaseUnitOfWorkActionFilter]
     public class SprintController : Controller
     {
-        private readonly ISprintRepository sprints;
+        private readonly IQuery<SprintDto> retrieveSprintsQuery;
+        private readonly ISaveUpdateCommand<SprintDto> saveCommand;
 
-        public SprintController(ISprintRepository sprints)
+        public SprintController(IQuery<SprintDto> retrieveSprintsQuery,ISaveUpdateCommand<SprintDto> saveCommand)
         {
-            this.sprints = sprints;
+            this.retrieveSprintsQuery = retrieveSprintsQuery;
+            this.saveCommand = saveCommand;
         }
 
         public ActionResult Index()
         {
-            return View(sprints.All().Select(x => new SprintDto{Id=x.Id,Name=x.Name,Description = x.Description}));
+            return View(retrieveSprintsQuery.All());
         }
 
         public ViewResult AddEdit(long id)
@@ -30,21 +32,16 @@ namespace UI.Controllers
             if (id.Equals(0))
                 return View();
 
-
-            Sprint sprint = sprints.Find(id);
-
-            return View( new SprintDto { Id = sprint.Id, Name = sprint.Name, Description = sprint.Description });
+            return View(retrieveSprintsQuery.Single(id));
         }
 
         [HttpPost]
         public ActionResult AddEdit(SprintDto dto)
         {
-            if (dto.Id.Equals(0))
-                sprints.Save(new Sprint(dto.Id, dto.Name, dto.Description));
-            else
-                sprints.Find(dto.Id).Update(dto.Name, dto.Description);
-
+            saveCommand.Save(dto);
             return new RedirectToRouteResult<SprintController>(x => x.Index());
         }
     }
+
+    
 }

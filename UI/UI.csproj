@@ -41,7 +41,9 @@
     <Reference Include="MvcContrib">
       <HintPath>..\build\lib\MvcContrib\MvcContrib.dll</HintPath>
     </Reference>
-    <Reference Include="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL" />
+    <Reference Include="StructureMap">
+      <HintPath>..\build\lib\StructureMap\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -73,7 +75,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionFilters\DatabaseUnitOfWork.cs" />
+    <Compile Include="ActionFilters\DatabaseUnitOfWorkActionFilter.cs" />
     <Compile Include="Container\Container.cs" />
     <Compile Include="Container\ContainerBootStrapper.cs" />
     <Compile Include="Container\RegisterObjects.cs" />
@@ -85,8 +87,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\HiddenFieldAttribute.cs" />
-    <Compile Include="Models\SprintDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -147,6 +147,14 @@
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{DF0A9876-6005-4EA6-B1B4-DB12EA884206}</Project>
       <Name>Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task\Task.csproj">
+      <Project>{0F8CD66D-7629-4E1B-B4C4-3C6C1B855A43}</Project>
+      <Name>Task</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewModel\ViewModel.csproj">
+      <Project>{A2CD578C-DFDD-41BE-80C6-030F573CCDC3}</Project>
+      <Name>ViewModel</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
