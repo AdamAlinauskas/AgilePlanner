@@ -2,7 +2,7 @@ using DAL.General;
 using StructureMap.Configuration.DSL;
 using Task.BaseInterfaces;
 
-namespace IocContainer
+namespace UI.Container
 {
     public class RegisterObjects : Registry
     {

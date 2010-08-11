@@ -2,7 +2,6 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 using Infrastructure.IOC;
-using IocContainer;
 using UI.Container;
 
 namespace UI

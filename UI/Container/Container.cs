@@ -1,5 +1,4 @@
 using Infrastructure.IOC;
-using IocContainer;
 using StructureMap;
 
 namespace UI.Container
