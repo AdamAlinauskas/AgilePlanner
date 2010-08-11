@@ -1,10 +1,6 @@
-using DAL.Sprints;
+using DAL.General;
 using StructureMap.Configuration.DSL;
 using Task.BaseInterfaces;
-using Task.Sprints;
-using Task.UnitOfwork;
-using UI.Models;
-using StructureMap;
 
 namespace IocContainer
 {
@@ -12,14 +8,33 @@ namespace IocContainer
     {
         public RegisterObjects()
         {
-            For<ISprintRepository>().Add<SprintRepository>();
-            For<IQuery<SprintDto>>().Add<RetrieveSprintsQuery>();
-            For<ISaveUpdateCommand<SprintDto>>().Add<SaveUpdateSprintCommand>();
-            For<IDatabaseUnitOfWork>().Add<DatabaseUnitOfWork>();
-            
-            For<IDatabase>().HttpContextScoped().Add<Database>();
-            
+            RegisterTaskLayer();
+            RegisterDataAccessLayer();
+        }
 
+        private void RegisterTaskLayer()
+        {
+            Scan(x =>
+                     {
+                         x.Assembly(typeof (IQuery<>).Assembly);
+                         x.AddAllTypesOf(typeof (IQuery<>));
+                         x.AddAllTypesOf(typeof (ISaveUpdateCommand<>));
+                         x.WithDefaultConventions();
+                     }
+                );
+        }
+
+        private void RegisterDataAccessLayer()
+        {
+            For<IDatabase>().HttpContextScoped().Add<Database>();
+
+            Scan(x =>
+                     {
+                         x.Assembly(typeof (IDatabase).Assembly);
+                         x.ExcludeNamespaceContainingType<IDatabase>();
+                         x.WithDefaultConventions();
+                     }
+                );
         }
     }
 }

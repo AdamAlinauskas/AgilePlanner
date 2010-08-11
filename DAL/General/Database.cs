@@ -1,8 +1,7 @@
-﻿using System;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using Domain.Sprints;
 
-namespace DAL.Sprints
+namespace DAL.General
 {
     public interface IDatabase
     {

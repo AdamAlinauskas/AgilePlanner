@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using DAL.General;
 using Domain.Sprints;
 
 namespace DAL.Sprints
