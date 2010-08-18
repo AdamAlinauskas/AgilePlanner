@@ -41,6 +41,12 @@
     <Reference Include="MvcContrib">
       <HintPath>..\build\lib\MvcContrib\MvcContrib.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\build\lib\NUnit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\build\lib\rhino.mocks\Rhino.Mocks.dll</HintPath>
+    </Reference>
     <Reference Include="StructureMap">
       <HintPath>..\build\lib\StructureMap\StructureMap.dll</HintPath>
     </Reference>
@@ -83,6 +89,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SprintController.cs" />
+    <Compile Include="Controllers\SprintControllerSpecs.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

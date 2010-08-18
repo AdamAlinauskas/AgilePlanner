@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace UI.Models
+﻿namespace UI.Models
 {
     public class SprintDto
     {

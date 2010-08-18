@@ -17,8 +17,8 @@ namespace UI.Controllers
             this.retrieveSprintsQuery = retrieveSprintsQuery;
             this.saveCommand = saveCommand;
         }
-
-        public ActionResult Index()
+        
+        public ViewResult Index()
         {
             return View(retrieveSprintsQuery.All());
         }
