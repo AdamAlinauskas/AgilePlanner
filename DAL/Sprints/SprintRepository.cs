@@ -14,7 +14,7 @@ namespace DAL.Sprints
         Sprint Find(long id);
     }
 
-    public class SprintRepository : DbContext,ISprintRepository
+    public class SprintRepository : ISprintRepository
     {
         private readonly IDatabase database;
 
