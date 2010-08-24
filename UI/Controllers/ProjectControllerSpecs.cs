@@ -62,10 +62,7 @@ namespace UI.Controllers
         {
             private ViewResult result;
 
-            public override void UnderTheseConditions()
-            {
-                
-            }
+            public override void UnderTheseConditions(){}
 
             public override void BecauseOf()
             {
