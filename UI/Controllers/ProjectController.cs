@@ -30,5 +30,10 @@ namespace UI.Controllers
         {
             throw new NotImplementedException();
         }
+
+        public ViewResult Create()
+        {
+            return View();
+        }
     }
 }

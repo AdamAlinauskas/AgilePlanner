@@ -85,7 +85,6 @@
     <Compile Include="Container\Container.cs" />
     <Compile Include="Container\ContainerBootStrapper.cs" />
     <Compile Include="Container\RegisterObjects.cs" />
-    <Compile Include="Container\RegistrySpecs.cs" />
     <Compile Include="Container\StructureMapDependencyResolver.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />

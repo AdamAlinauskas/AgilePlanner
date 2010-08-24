@@ -2,9 +2,6 @@ using DAL.General;
 using Infrastructure.Mapping;
 using StructureMap.Configuration.DSL;
 using Task.BaseInterfaces;
-using Task.Projects;
-using Task.Sprints;
-using UI.Models;
 
 namespace UI.Container
 {

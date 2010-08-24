@@ -3,11 +3,11 @@
 <%@ Import Namespace="MvcContrib.UI.Grid.ActionSyntax" %>
 <%@ Import Namespace="UI.Controllers" %>
 <%@ Import Namespace="Microsoft.Web.Mvc" %>
-<asp:Content runat="server" ID="Title" ContentPlaceHolderID="TitleContent"></asp:Content>
+<asp:Content runat="server" ID="Title" ContentPlaceHolderID="TitleContent">Projects</asp:Content>
 <asp:Content runat="server" ID="ScriptsAndStyles" ContentPlaceHolderID="ScriptsAndStylesContent"></asp:Content>
 <asp:Content runat="server" ID="Main" ContentPlaceHolderID="MainContent">
 
-
+<%=Html.ActionLink<ProjectController>(x=>x.Create(),"Create") %>
 
 <%
   Html.Grid(Model.Projects).Columns(

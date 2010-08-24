@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extentions\ObjectExtensions.cs" />
     <Compile Include="IOC\DependencyResolver.cs" />
     <Compile Include="IOC\Resolve.cs" />
     <Compile Include="Mapping\IMapper.cs" />

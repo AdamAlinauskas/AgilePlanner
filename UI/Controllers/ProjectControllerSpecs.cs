@@ -8,6 +8,8 @@ using NUnit.Framework;
 using Rhino.Mocks;
 using Task.BaseInterfaces;
 using UI.Models;
+using ViewModel;
+using Infrastructure.Extentions;
 
 namespace UI.Controllers
 {
@@ -49,9 +51,31 @@ namespace UI.Controllers
             }
 
             [Test]
-            public void it_should_have_the_correct_data()
+            public void it_should_have_a_listing_of_projects_from_the_query()
             {
-                result.ViewData.Model.ShouldBeEqualTo(queryData);
+                result.ViewData.Model.DownCastTo<ProjectListingDto>().Projects.ShouldBeEqualTo(queryData);
+            } 
+
+        }
+
+        public class when_displaying_the_create_view:behaves_like_a_ProjectController
+        {
+            private ViewResult result;
+
+            public override void UnderTheseConditions()
+            {
+                
+            }
+
+            public override void BecauseOf()
+            {
+                result = sut.Create();
+            }
+
+            [Test]
+            public void it_should_display_the_correct_view()
+            {
+                result.ViewName.ShouldBeEqualTo(string.Empty);
             } 
         }
     }
