@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using Domain.Projects;
 using Domain.Sprints;
 
 namespace DAL.General
@@ -6,6 +7,7 @@ namespace DAL.General
     public interface IDatabase
     {
         IDbSet<Sprint> Sprints { get; }
+        IDbSet<Project> Projects { get; }
         void Save();
 
         void Commit();
@@ -14,6 +16,8 @@ namespace DAL.General
     public class Database : DbContext, IDatabase
     {
         public IDbSet<Sprint> Sprints { get; set; }
+        public IDbSet<Project> Projects { get; set; }
+
 
         public void Save()
         {

@@ -35,6 +35,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\build\lib\EntityFrameWork.4.CTP\Microsoft.Data.Entity.CTP.dll</HintPath>
     </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\build\lib\NUnit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Rhino.Mocks">
+      <HintPath>..\build\lib\rhino.mocks\Rhino.Mocks.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,7 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Projects\ProjectsRepository.cs" />
+    <Compile Include="Projects\ProjectRepository.cs" />
+    <Compile Include="Projects\ProjectRepositorySpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="General\Database.cs" />
     <Compile Include="Sprints\SprintRepository.cs" />
@@ -53,6 +60,10 @@
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{0E393725-3150-4C02-9EAE-9A1412A2A4BC}</Project>
       <Name>Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
+      <Project>{DF0A9876-6005-4EA6-B1B4-DB12EA884206}</Project>
+      <Name>Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Projects\ProjectMapper.cs" />
     <Compile Include="Projects\ProjectQuerySpecs.cs" />
     <Compile Include="Projects\ProjectsQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

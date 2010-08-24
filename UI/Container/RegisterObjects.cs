@@ -1,6 +1,10 @@
 using DAL.General;
+using Infrastructure.Mapping;
 using StructureMap.Configuration.DSL;
 using Task.BaseInterfaces;
+using Task.Projects;
+using Task.Sprints;
+using UI.Models;
 
 namespace UI.Container
 {
@@ -17,8 +21,9 @@ namespace UI.Container
             Scan(x =>
                      {
                          x.Assembly(typeof (IQuery<>).Assembly);
-                         x.AddAllTypesOf(typeof (IQuery<>));
-                         x.AddAllTypesOf(typeof (ISaveUpdateCommand<>));
+                         x.ConnectImplementationsToTypesClosing(typeof (IQuery<>));
+                         x.ConnectImplementationsToTypesClosing(typeof (ISaveUpdateCommand<>));
+                         x.ConnectImplementationsToTypesClosing(typeof (IMapper<,>));
                          x.WithDefaultConventions();
                      }
                 );

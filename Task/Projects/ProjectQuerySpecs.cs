@@ -17,14 +17,14 @@ namespace Task.Projects
     {
         public abstract class behaves_like_a_ProjectsQuery : ContextSpec<IQuery<ProjectDto>>
         {
-            protected IProjectsRepository projects;
+            protected IProjectRepository Project;
             protected IMapper<Project, ProjectDto> mapper;
 
             public override IQuery<ProjectDto> CreateSut()
             {
-                projects = MockRepository.GenerateStub<IProjectsRepository>();
+                Project = MockRepository.GenerateStub<IProjectRepository>();
                 mapper = MockRepository.GenerateMock<IMapper<Project, ProjectDto>>();
-                return new ProjectsQuery(projects,mapper);
+                return new ProjectsQuery(Project,mapper);
             }
         }
 
@@ -39,7 +39,7 @@ namespace Task.Projects
                 allProjects = Enumerable.Empty<Project>();
                 mappedProjects = Enumerable.Empty<ProjectDto>();
 
-                projects.Stub(x => x.All()).Return(allProjects);
+                Project.Stub(x => x.All()).Return(allProjects);
                 mapper.Stub(x => x.MapFrom(allProjects)).Return(mappedProjects);
             }
 

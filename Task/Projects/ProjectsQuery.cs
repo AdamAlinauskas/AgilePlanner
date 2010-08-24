@@ -10,12 +10,12 @@ namespace Task.Projects
 {
     public class ProjectsQuery : IQuery<ProjectDto>
     {
-        private readonly IProjectsRepository projects;
+        private readonly IProjectRepository Project;
         private readonly IMapper<Project, ProjectDto> mapper;
 
-        public ProjectsQuery(IProjectsRepository projects, IMapper<Project, ProjectDto> mapper)
+        public ProjectsQuery(IProjectRepository Project, IMapper<Project, ProjectDto> mapper)
         {
-            this.projects = projects;
+            this.Project = Project;
             this.mapper = mapper;
         }
 
@@ -26,7 +26,7 @@ namespace Task.Projects
 
         public IEnumerable<ProjectDto> All()
         {
-            return mapper.MapFrom(projects.All());
+            return mapper.MapFrom(Project.All());
         }
     }
 }

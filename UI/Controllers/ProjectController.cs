@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Task.BaseInterfaces;
 using UI.Models;
+using ViewModel;
 
 namespace UI.Controllers
 {
@@ -22,7 +23,7 @@ namespace UI.Controllers
 
         public ViewResult Index()
         {
-            return View(query.All());
+            return View(new ProjectListingDto {Projects = query.All()});
         }
 
         public ViewResult AddEdit(object id)
