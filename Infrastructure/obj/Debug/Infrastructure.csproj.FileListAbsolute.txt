@@ -22,3 +22,9 @@ D:\development\spikes\AgilePlanner\Infrastructure\obj\Debug\ResolveAssemblyRefer
 D:\development\spikes\AgilePlanner\Infrastructure\obj\Debug\Infrastructure.dll
 D:\development\spikes\AgilePlanner\Infrastructure\obj\Debug\Infrastructure.pdb
 D:\development\spikes\AgilePlanner\Infrastructure\bin\Debug\nunit.framework.dll
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Infrastructure\bin\Debug\nunit.framework.dll
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Infrastructure\obj\Debug\Infrastructure.pdb

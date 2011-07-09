@@ -8,3 +8,8 @@ D:\development\spikes\AgilePlanner\Domain\bin\Debug\Domain.pdb
 D:\development\spikes\AgilePlanner\Domain\obj\Debug\ResolveAssemblyReference.cache
 D:\development\spikes\AgilePlanner\Domain\obj\Debug\Domain.dll
 D:\development\spikes\AgilePlanner\Domain\obj\Debug\Domain.pdb
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Domain\bin\Debug\Domain.dll
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Domain\bin\Debug\Domain.pdb
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Domain\obj\Debug\Domain.dll
+C:\Users\adam\Documents\Visual Studio 2010\Projects\AgilePlanner\Domain\obj\Debug\Domain.pdb
